@@ -3,20 +3,20 @@
 
 ##menu 导航菜单显示
 menu:
-- page: home
+- page: 首页
   url: /
   icon: fa-home
-- page: 前端
-  url: /categories/前端/
+- page: 分类
+  url: /categories/
   icon: 
-- page: 后端
-  url: /categories/后端/
+- page: 标签
+  url: /tags/
   icon: 
-- page: 工具
-  url: /categories/工具/
+- page: 归档
+  url: /archives/
   icon: 
-- page: 资源
-  url: /categories/资源/
+- page: 关于
+  url: /about
   icon: 
 
 
@@ -42,19 +42,16 @@ widgets:
 
 ## 网站公告设置
 notification: |-
-            <p>主题Snippet v1.1.0版本已经上线！欢迎更新~ <br/>
-            主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
-            <hr/>接受贡献，包括不限于提交问题与需求，修复代码。欢迎Pull Request。<br/>支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
-            </p>
+            <p>暂无公告<br/></p>
 
 ## 社交设置
 social:
  - name: Github
    icon: git
-   href: //github.com/shenliyang
- - name: 邮箱
+   href: //github.com/procyon-lotor
+ - name: Email
    icon: envelope-o
-   href: mailto:snippet@91h5.cc
+   href: mailto:zhenchao.wang@hotmail.com
  - name: 联系QQ
    icon: qq
    href: /
@@ -90,7 +87,7 @@ tagcloud_config:
 
 ## 友链设置
 links:
-  - 个人博客: http://www.shenliyang.com
+  - 武汉大学NLP研究中心: http://nlp.whu.edu.cn
 
 
 # 自定义内容设置
@@ -98,7 +95,7 @@ links:
 ## 添加版权保护 
 archiveCopyright:
   enable: true
-  tip: '商业转载请联系作者获得授权,非商业转载请注明出处 © Snippet'
+  tip: '版权所有，转载请注明出处 ©zhenchao'
 
 
 ## 当无目录时的显示文字，默认为'无'
@@ -109,7 +106,7 @@ outdated_browser_text: '你使用的浏览器版本过低，为了你更好的�
 
 ## 文章过期提醒功能
 warning:
-  days: 300 
+  days: 3650 
   text: '本文于%d天之前发表，文中内容可能已经过时。'
 
 
@@ -129,8 +126,8 @@ highlightTheme: default
 
 ## 版权声明文字，支持html/text，但不要使用<li>标签
 cc: |-
-      <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/" target="_blank">
-      知识共享署名-非商业性使用-禁止演绎 3.0 未本地化版本许可协议（CC BY-NC-ND 3.0）
+      <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
+      本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议
       </a>
 
 
@@ -148,11 +145,11 @@ gitment:
 ###友言评论
 uyan:
   enable: true
-  uyan_id: 1966422
+  uyan_id: 2081622
 
 
 ## 网盟CNZZ网站统计
-cnzz_anaylytics: 1263868967
+cnzz_anaylytics: 1258616757
 
 ## 百度网站统计
 baidu_anaylytics: 

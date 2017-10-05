@@ -161,6 +161,7 @@ textarea:focus {
 blockquote {
   border-left: 4px solid #e67e22;
   background-color: #f9f9f9;
+  font-size: 14px;
 }
 pre {
   padding: 0;

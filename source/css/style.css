@@ -1034,6 +1034,9 @@ pre {
     content: "";
     margin-bottom: 10px;
   }
+  .blockquote-center {
+	  text-align: center;
+  }
   .blockquote-center img {
   	max-width: 100%;
   }

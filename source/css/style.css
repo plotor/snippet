@@ -816,6 +816,26 @@ pre {
   left: 0;
   bottom: -1px;
 }
+.widget .author {
+  width: 100%;
+  height: 112px;
+  border-bottom: 2px solid #E67E22;
+  clear: both;
+}
+.widget .author .avatar {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.widget .author .info {
+    width: 200px;
+    height: 100px;
+}
+.widget .author .avatar img {
+  max-width: 100%;
+  border: 5px solid #CCC;
+  border-radius: 50%;
+}
 .widget .tag-cloud a {
   border: 1px solid #ebebeb;
   padding: 2px 7px;

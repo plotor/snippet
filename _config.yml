@@ -6,14 +6,11 @@ menu:
 - page: 首页
   url: /
   icon: fa-home
-- page: 分类
-  url: /categories/
+- page: 开源
+  url: /open-source
   icon: 
-- page: 标签
-  url: /tags/
-  icon: 
-- page: 归档
-  url: /archives/
+- page: 书单
+  url: /books
   icon: 
 - page: 关于
   url: /about
@@ -72,9 +69,10 @@ cate_config:
 
 ## 文章归档设置
 arch_config:
-   type: 'monthly'
+   type: 'yearly'
    show_count: true
    order: -1
+   format: YYYY
 
 ## 彩色标签云设置
 tagcloud_config:
@@ -95,7 +93,7 @@ links:
 ## 添加版权保护 
 archiveCopyright:
   enable: true
-  tip: '版权所有，转载请注明出处 ©zhenchao'
+  tip: '版权所有，转载请注明出处'
 
 
 ## 当无目录时的显示文字，默认为'无'
@@ -121,7 +119,7 @@ defaultImgs:
 excerptLength: 120
 
 ## 代码高亮配置
-highlightTheme: default
+highlightTheme: github
 
 
 ## 版权声明文字，支持html/text，但不要使用<li>标签

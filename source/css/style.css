@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: bold;
   color: #303030;
 }
 h1 {
@@ -43,10 +43,10 @@ h3 {
   font-size: 1.2em;
 }
 h4 {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 h5 {
-  font-size: 0.75em;
+  font-size: 0.9em;
 }
 h6 {
   font-size: 0.5em;
@@ -272,9 +272,10 @@ pre {
 }
 .main-navigation .menu li a {
   color: #505050;
-  line-height: 4em;
+  line-height: 3em;
   display: block;
   padding: 0 21px;
+  font-size: 16px;
 }
 .main-navigation .menu li:hover > a {
   color: #e67e22;
@@ -420,6 +421,24 @@ pre {
 }
 .post .post-body p img {
   max-width: 100%;
+}
+.post .post-body table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.post .post-body table thead tr {
+  border-bottom: 3px solid #E67E22;
+}
+.post .post-body table tbody tr {
+  border-bottom: 1px solid #E67E22;
+}
+.post .post-body .highlight table {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.post .post-body .highlight table tbody tr {
+  border-bottom:0px;
 }
 .post .post-footer {
   margin-top: 15px;
@@ -935,12 +954,20 @@ pre {
 ====================================================*/
 .highlight {
   overflow-x: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .highlight table {
   width: 100%;
 }
 .highlight .gutter {
   display: none;
+}
+.highlight .code {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #F8F8F8;
+  border-radius: 6px;
 }
 .highlight .code pre {
   margin-bottom: 0;
@@ -1039,5 +1066,10 @@ pre {
   }
   .blockquote-center img {
   	max-width: 100%;
+	margin-top: 16px;
+	margin-bottom: 16px;
+  }
+  .hljs {
+	  padding: 0.1em;
   }
 }

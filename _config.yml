@@ -69,10 +69,10 @@ cate_config:
 
 ## 文章归档设置
 arch_config:
-   type: 'yearly'
+   type: 'monthly'
    show_count: true
    order: -1
-   format: YYYY
+   format: MMMM
 
 ## 彩色标签云设置
 tagcloud_config:
@@ -113,7 +113,7 @@ placeholder: ./img/loading.gif
 
 ## 首页文章简介的图片
 defaultImgs:
-  - /img/default.jpg 
+  - /img/default.png
 
 ### 截取文章首页描述字数
 excerptLength: 120

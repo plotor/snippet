@@ -721,6 +721,17 @@ pre {
   font-size: 16px;
   font-family: "Georgia", "SimSun", sans-serif;
 }
+.blockquote-center {
+  text-align: center;
+ }
+.blockquote-center img {
+  max-width: 100%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hljs {
+  padding: 0.1em;
+}
 /*====================================================
     pagination
 ====================================================*/
@@ -840,10 +851,9 @@ pre {
 }
 .widget .author {
   width: 100%;
-  height: 122px;
   margin-bottom: 10px;
+  padding-bottom:  10px;
   border-bottom: 2px solid #E67E22;
-  clear: both;
 }
 .widget .author .avatar {
     width: 100px;
@@ -851,9 +861,8 @@ pre {
     float: left;
 }
 .widget .author .info {
-    width: 192px;
-    height: 100px;
-	float: right;
+    margin-left:  10px;
+    float: left;
 }
 .widget .author .avatar img {
   max-width: 100%;
@@ -975,6 +984,19 @@ pre {
 /*====================================================
     media
 ====================================================*/
+@media(max-width: 396px) {
+  .widget .author {
+    text-align:  center;
+  }
+  .widget .author .avatar {
+    margin:  auto;
+    float: none;
+  }
+  .widget .author .info {
+    margin: auto;
+    float: none;
+  }
+}
 @media (max-width: 767px) {
   .main-navigation {
     text-align: left;
@@ -1060,16 +1082,5 @@ pre {
     display: block;
     content: "";
     margin-bottom: 10px;
-  }
-  .blockquote-center {
-	  text-align: center;
-  }
-  .blockquote-center img {
-  	max-width: 100%;
-	margin-top: 16px;
-	margin-bottom: 16px;
-  }
-  .hljs {
-	  padding: 0.1em;
   }
 }

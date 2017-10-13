@@ -786,6 +786,17 @@ pre {
   padding: 20px;
   margin-bottom: 20px;
 }
+#about {
+  margin: 30px;
+}
+#about blockquote {
+  border-left: 4px solid #EEE;
+  background: transparent;
+  font-size: 18px;
+}
+#about h4 {
+  font-weight: normal;
+}
 /* prev and next link */
 .prev-next-wrap {
   margin-bottom: 25px;

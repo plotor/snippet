@@ -414,6 +414,7 @@ pre {
   padding: 25px 0;
   border-top: 1px solid #eee;
   overflow: hidden;
+  padding-bottom: 10px;
 }
 .post .post-body p {
   font-size: 1.1em;
@@ -796,6 +797,15 @@ pre {
 }
 #about h4 {
   font-weight: normal;
+}
+.share {
+	text-align: center;
+}
+.share .jiathis_style_24x24 {
+	display: inline-block;
+}
+.share .jiathis_style_24x24 .jiathis_counter.jiathis_bubble_style {
+	width: 58px !important;
 }
 /* prev and next link */
 .prev-next-wrap {

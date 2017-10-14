@@ -156,6 +156,11 @@ changyan:
   enable: false
   appid: cysVsEtac
   appkey: 966bea4f406651be0a6c237e63a2cd51
+  
+# jiathis
+jiathis:
+  enable: true
+  uid: 2081622
 
 ## 网盟CNZZ网站统计
 cnzz_anaylytics: 1258616757

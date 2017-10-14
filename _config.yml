@@ -8,7 +8,10 @@ menu:
   icon: fa-home
 - page: 开源
   url: /open-source
-  icon: 
+  icon:
+- page: 招聘
+  url: /recruit
+  icon:
 - page: 书单
   url: /books
   icon: 
@@ -38,8 +41,10 @@ widgets:
 # 各个小工具的设置
 
 ## 网站公告设置
-notification: |-
-            <p>不断前行，拥抱变化，感恩一路上给予帮助的人！</p>
+notification: 
+    name: 王振超，「花名：予尊」
+    position: 小米科技 · 服务端研发工程师
+    talk: 不断前行，拥抱变化，感恩一路上给予帮助的人！
 
 ## 社交设置
 social:
@@ -145,6 +150,12 @@ uyan:
   enable: true
   uyan_id: 2081622
 
+
+# changyan
+changyan:
+  enable: false
+  appid: cysVsEtac
+  appkey: 966bea4f406651be0a6c237e63a2cd51
 
 ## 网盟CNZZ网站统计
 cnzz_anaylytics: 1258616757

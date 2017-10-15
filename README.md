@@ -1,6 +1,22 @@
-# hexo-theme-snippet
+## Hexo Theme Snippet
 
-Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
+基于原作者 [snippet](https://github.com/shenliyang/hexo-theme-snippet) 主题做了如下修改：
+
+> 1. 替换公告栏为作者信息栏（兼容各平台浏览器）
+> 2. 增加畅言评论模块支持
+> 3. 增加 JiaThis 分享模块支持
+> 4. 优化了正文的排版显示
+> 5. 标题以单行显示，超出部分以省略号代替
+
+下一步计划：
+
+> 1. 替换首页轮播栏为通知公告栏
+
+对原作者的工作表示致谢~
+
+---
+
+Snippet 简洁而不简单，也许是一款你寻找已久的 hexo 主题。
 
 如果本主题也是你喜欢的菜，请动动手指 [Star](https://github.com/shenliyang/hexo-theme-snippet/stargazers) 支持一下:pray:。
 
@@ -10,8 +26,7 @@ Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
 [![hexo version](https://img.shields.io/badge/hexo-%3E%3D%203.0-blue.svg)](http://hexo.io)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shenliyang/hexo-theme-snippet/blob/master/LICENSE)
 
-
-[在线预览 Demo](http://shenliyang.github.io)  
+[在线预览 Demo](http://shenliyang.github.io)
 
 ![hexo-theme-snippet](http://7xpw2b.com1.z0.glb.clouddn.com/hexo-sinppet/img/snippet-screenshots2000.jpg)
 
@@ -60,7 +75,7 @@ Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
 从Github上获取代码：
 ``` bash
     git clone git://github.com/shenliyang/hexo-theme-snippet.git themes/snippet
-``` 
+```
 
 ### Update theme | 更新主题
 
@@ -69,7 +84,7 @@ Snippet 简洁而不简单，也许是一款你寻找已久的hexo主题。
 ``` bash
     cd themes/snippet
     git pull
-``` 
+```
 
 ### Configure | 主题配置
 
@@ -87,13 +102,13 @@ menu:
   icon: fa-home
 - page: Html5
   url: /categories/html5/
-  icon: 
+  icon:
 - page: vue
   url: /categories/vue/
-  icon: 
+  icon:
 - page: JavaScript
   url: /categories/javascript/
-  icon: 
+  icon:
 
 ## favicon -- 网站图标位置{@favicon}
 favicon: /favicon.ico
@@ -104,9 +119,9 @@ rss: /atom.xml
 ## 通用时间格式化
 date_format: YYYY-MM-DD HH:mm:ss
 
-## widgets -- 6个左边小工具{@widgets:[notification,category,archive,tagcloud,friends]}
+## widgets -- 6个左边小工具{@widgets:[author,category,archive,tagcloud,friends]}
 widgets:
-- notification 
+- author
 - social
 - category
 - archive
@@ -115,11 +130,10 @@ widgets:
 
 # 各个小工具的设置
 
-## notification config --网站公告设置,支持 html 和 纯文本
-notification: |- 
-            <p>主题Snippet v1.2.0版本已经上线！欢迎更新~ <br/>
-            主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br/>
-            <hr/>接受贡献，包括不限于提交问题与需求，修复代码。欢迎Pull Request。<br/>支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a></p>
+author:
+    name:
+    position:
+    slogan:
 
 ## 社交设置{@name:社交工具名字，@icon:社交工具图标，@href:设置工具链接 /*参考图标：http://fontawesome.io/icons/*/}
 
@@ -142,7 +156,7 @@ social:
  - name: RSS
    icon: feed
    href: /atom.xml
-   
+
 ## 文章分类设置{@cate_config:{@show_count:是否显示数字，@show_current: 是否高亮当前category}}
 cate_config:
    show_count: true
@@ -182,17 +196,17 @@ outdated_browser_text: '你使用的浏览器版本过低，为了你更好的�
 
 ## 文章过期提醒功能 {@warning:{days:临界天数,text:提醒文字/*%d为过期总天数占位符*/}}
 warning:
-  days: 300 
+  days: 300
   text: '本文于%d天之前发表，文中内容可能已经过时。'
-  
+
 ### 首页文章缩略图
 ### 加载规则: 自定义文章缩略图(在Front-matter中添加的'img'字段) > 文章内的图片 > defaultImgs(随机获取) > 无图模式列表
-  
+
 ## 自定义随机图片
 defaultImgs:
   - http://www.example.jpg //远程图片链接样例
   - /img/default-1.jpg //本地图片链接样例
-  
+
 ## 懒加载图片占位符
 placeholder: ./img/loading.gif //为了友好，不建议改动
 
@@ -214,24 +228,24 @@ cc: |-
 ### gitment
 gitment:
   enable: false
-  owner: 
-  repo: 
-  client_id: 
-  client_secret: 
-  labels: 
-  perPage: 
+  owner:
+  repo:
+  client_id:
+  client_secret:
+  labels:
+  perPage:
   maxCommentHeight:
-  
+
 ###友言评论(默认选项)
 uyan:
   enable: true
-  uyan_id: 
+  uyan_id:
 
 ## 网盟CNZZ网站统计 /*参考网站：http://www.umeng.com/ */
-cnzz_anaylytics: 
+cnzz_anaylytics:
 
 ## 百度网站统计 /*参考网站: https://tongji.baidu.com/ */
-baidu_anaylytics: 
+baidu_anaylytics:
 
 ## 百度文章推送 /*参考网站: http://zhanzhang.baidu.com */
 baidu_push:
@@ -282,7 +296,7 @@ node_js: stable #安装稳定版Node
 sudo: false  
 
 #cache 启用缓存，加快构建速度
-cache: 
+cache:
   directories:
     - "node_modules"
 
@@ -326,7 +340,7 @@ env:
 ## Theme dev | 主题开发
 Gulp 执行启用主题二次开发模式
 ``` bash
-    gulp dev 
+    gulp dev
 ```
 会监听样式less或者JS文件的变动。然后执行上面的【主题发布】即可。
 
@@ -339,7 +353,7 @@ Gulp 执行启用主题二次开发模式
 
 ## Thanks | 感谢
 
-在设计这款主题的时候参考了好多主题和博客的设计和创意，深表感谢！ 
+在设计这款主题的时候参考了好多主题和博客的设计和创意，深表感谢！
 
 ## Contribute | 贡献
 接受各种形式的贡献，包括但不限于提交问题或需求，修复代码。

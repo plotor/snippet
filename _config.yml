@@ -14,16 +14,16 @@ menu:
   icon:
 - page: 书单
   url: /books
-  icon: 
+  icon:
 - page: 关于
   url: /about
-  icon: 
+  icon:
 
 
-## favicon 
+## favicon
 favicon: /favicon.ico
 
-## Feed 
+## Feed
 rss: /atom.xml
 
 ## 通用时间格式化
@@ -31,7 +31,7 @@ date_format: YYYY-MM-DD HH:mm:ss
 
 ## widgets
 widgets:
-- notification
+- author
 - social
 - category
 - archive
@@ -40,11 +40,11 @@ widgets:
 
 # 各个小工具的设置
 
-## 网站公告设置
-notification: 
+## 作者信息
+author:
     name: 王振超，「花名：予尊」
     position: 小米科技 · 服务端研发工程师
-    talk: 不断前行，拥抱变化，感恩一路上给予帮助的人！
+    slogan: 不断前行，拥抱变化，感恩一路上给予帮助的人！
 
 ## 社交设置
 social:
@@ -95,7 +95,7 @@ links:
 
 # 自定义内容设置
 
-## 添加版权保护 
+## 添加版权保护
 archiveCopyright:
   enable: true
   tip: '版权所有，转载请注明出处'
@@ -109,7 +109,7 @@ outdated_browser_text: '你使用的浏览器版本过低，为了你更好的�
 
 ## 文章过期提醒功能
 warning:
-  days: 3650 
+  days: 3650
   text: '本文于%d天之前发表，文中内容可能已经过时。'
 
 
@@ -138,10 +138,10 @@ cc: |-
 ### gitment
 gitment:
   enable: false
-  owner: 
-  repo: 
-  client_id: 
-  client_secret: 
+  owner:
+  repo:
+  client_id:
+  client_secret:
   perPage: 10
 
 
@@ -156,7 +156,7 @@ changyan:
   enable: false
   appid: cysVsEtac
   appkey: 966bea4f406651be0a6c237e63a2cd51
-  
+
 # jiathis
 jiathis:
   enable: true
@@ -166,7 +166,7 @@ jiathis:
 cnzz_anaylytics: 1258616757
 
 ## 百度网站统计
-baidu_anaylytics: 
+baidu_anaylytics:
 
 ## 百度文章推送
 baidu_push:

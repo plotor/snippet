@@ -1,17 +1,17 @@
-<%if(theme.notification){%>
-    <div class="widget notification">
+<%if(theme.author){%>
+    <div class="widget author">
         <h3 class="title">作者</h3>
         <div class="author clearfix">
 			<div class="avatar">
 				<img src="/images/author.jpg" />
         	</div>
         	<div class="info">
-				<H3><%- theme.notification.name %></H3>
-				<p><%- theme.notification.position %></p>
+				<H3><%- theme.author.name %></H3>
+				<p><%- theme.author.position %></p>
         	</div>
         </div>
         <div>
-            <p><%- theme.notification.talk %></p>
+            <p><%- theme.author.slogan %></p>
         </div>
     </div>
 <%}%>

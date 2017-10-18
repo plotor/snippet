@@ -1,7 +1,11 @@
 <div class="carousel">
     <!-- <%- image_tag('img/head-img.jpg') %> -->
-    <div class="notice">公告栏</div>
-    测试测试测试
+    <div class="notice"><%= __('notice') %></div>
+    <%if(theme.notice){%>
+		<p><%- theme.notice %></p>
+	<% } else { %>
+		<p>暂无公告，永远相信美好的事情即将发生</p>
+	<%}%>
 </div>
 
 <%if(theme.jiathis.enable){%>

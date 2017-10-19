@@ -210,13 +210,12 @@ pre {
 }
 .carousel {
   margin-bottom: 20px;
-  height:  176px;
-  line-height: 176px;
   background:  #FFF;
   border-top: 3px solid #CD5555;
   text-align: center;
+  overflow: hidden;
 }
-.carousel p img {
+.carousel img {
   width: 100%;
 }
 .carousel .notice {
@@ -1038,6 +1037,9 @@ pre {
   .widget .author .info {
     margin: auto;
     float: none;
+  }
+  .carousel .notice {
+	display: none;
   }
 }
 @media (max-width: 767px) {

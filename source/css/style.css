@@ -210,13 +210,11 @@ pre {
 }
 .carousel {
   margin-bottom: 20px;
+  max-height: 178px;
   background:  #FFF;
   border-top: 3px solid #CD5555;
   text-align: center;
   overflow: hidden;
-}
-.carousel img {
-  width: 100%;
 }
 .carousel .notice {
   position: absolute;
@@ -234,6 +232,13 @@ pre {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   /* opacity: .85;*/
+}
+.carousel img {
+  width: 100%;
+}
+.carousel .letter {
+  min-height: 146px;
+  margin-top: 30px;
 }
 /*====================================================
     header 

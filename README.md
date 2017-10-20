@@ -127,6 +127,10 @@ widgets:
 
 # 各个小工具的设置
 
+## 通知栏
+notice: 
+
+## 作者信息
 author:
     name:
     position:

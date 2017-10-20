@@ -2,9 +2,9 @@
     <!-- <%- image_tag('img/head-img.jpg') %> -->
     <div class="notice"><%= __('notice') %></div>
     <%if(theme.notice){%>
-		<p><%- theme.notice %></p>
+		<div class="letter"><%- theme.notice %></div>
 	<% } else { %>
-		<img src="/img/1024.jpg"/>
+		<a href="https://www.mi.com/index.html" target="_blank"><img src="/img/1024.jpg"/></a>
 	<%}%>
 </div>
 

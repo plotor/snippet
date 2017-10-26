@@ -235,7 +235,7 @@ pre {
   /* opacity: .85;*/
 }
 .carousel img {
-  margin-top:  -122px;
+  margin-top:  -72px;
   width: 100%;
 }
 .carousel .letter {
@@ -1047,7 +1047,7 @@ pre {
     float: none;
   }
   .carousel img {
-    margin-top:  -58px;
+    margin-top:  -38px;
   }
 }
 @media(max-width: 672px) {

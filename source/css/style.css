@@ -214,6 +214,7 @@ pre {
   background:  #FFF;
   border-top: 3px solid #CD5555;
   text-align: center;
+  box-shadow: 3px 3px 3px #999;
   /*overflow: hidden;*/
 }
 .carousel .notice {
@@ -234,7 +235,7 @@ pre {
   /* opacity: .85;*/
 }
 .carousel img {
-  margin-top:  -30px;
+  margin-top:  -122px;
   width: 100%;
 }
 .carousel .letter {
@@ -296,6 +297,7 @@ pre {
   list-style: none;
   display: inline-block;
   position: relative;
+  z-index: 8;
 }
 .main-navigation .menu li a {
   color: #505050;
@@ -1044,6 +1046,11 @@ pre {
     margin: auto;
     float: none;
   }
+  .carousel img {
+    margin-top:  -58px;
+  }
+}
+@media(max-width: 672px) {
   .carousel .notice {
 	display: none;
   }

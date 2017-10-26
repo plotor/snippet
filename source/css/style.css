@@ -214,7 +214,7 @@ pre {
   background:  #FFF;
   border-top: 3px solid #CD5555;
   text-align: center;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 .carousel .notice {
   position: absolute;
@@ -234,6 +234,7 @@ pre {
   /* opacity: .85;*/
 }
 .carousel img {
+  margin-top:  -30px;
   width: 100%;
 }
 .carousel .letter {

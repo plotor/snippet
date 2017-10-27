@@ -112,7 +112,7 @@ outdated_browser_text: '你使用的浏览器版本过低，为了你更好的�
 
 ## 文章过期提醒功能
 warning:
-  days: 3650
+  days: 512
   text: '本文于%d天之前发表，文中内容可能已经过时。'
 
 
@@ -132,8 +132,8 @@ highlightTheme: github
 
 ## 版权声明文字，支持html/text，但不要使用<li>标签
 cc: |-
-      <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">
-      本博客所有文章除特别声明外，均采用 CC BY-NC-SA 3.0 许可协议
+      <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
+      本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议
       </a>
 
 

@@ -1,7 +1,7 @@
 # layout -- 布局相关
 # language: zh-CN
 
-##menu 导航菜单显示
+## menu 导航菜单显示
 menu:
 - page: 首页
   url: /
@@ -18,7 +18,6 @@ menu:
 - page: 关于
   url: /about
   icon:
-
 
 ## favicon
 favicon: /favicon.ico
@@ -47,7 +46,7 @@ author:
     slogan: 声明：本站所引用资源若存在侵权，请<a href="mailto://zhenchao.wang@hotmail">邮件</a>告知！
 
 # 通知栏
-notice: 
+notice:
 
 ## 社交设置
 social:
@@ -96,13 +95,15 @@ links:
   - 武汉大学NLP研究中心: http://nlp.whu.edu.cn
 
 
-# 自定义内容设置
+# 主题自定义个性化配置
 
 ## 添加版权保护
 archiveCopyright:
   enable: true
   tip: '版权所有，转载请注明出处'
 
+## 网站宣传语
+branding:
 
 ## 当无目录时的显示文字，默认为'无'
 noCategoryText: '无'
@@ -119,11 +120,11 @@ warning:
 ## 首页文章简介的图片占位符
 placeholder: ./img/loading.gif
 
-## 首页文章简介的图片
+## 缩略图自定义随机图片
 defaultImgs:
   - /img/default.png
 
-### 截取文章首页描述字数
+## 截取文章首页描述字数
 excerptLength: 120
 
 ## 代码高亮配置
@@ -148,7 +149,7 @@ gitment:
   perPage: 10
 
 
-###友言评论
+### 友言评论
 uyan:
   enable: true
   uyan_id: 2081622
@@ -165,13 +166,18 @@ jiathis:
   enable: true
   uid: 2081622
 
-## 网盟CNZZ网站统计
+## 网站访问统计
+
+### 网盟CNZZ统计
 cnzz_anaylytics: 1258616757
 
-## 百度网站统计
+### 百度统计
 baidu_anaylytics:
 
-## 百度文章推送
+### 谷歌统计
+google_anaylytics:
+
+### 百度文章推送
 baidu_push:
 
 ## ICON配置
@@ -179,5 +185,5 @@ fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
 
 #网站主题配置
 since: 2017
-robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all，搜索 `meta name="robots"` 或请参考： https://support.google.com/webmasters/answer/79812?hl=zh-Hans
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.1.0

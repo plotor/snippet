@@ -8,16 +8,16 @@ menu:
   icon: fa-home
 - page: 开源
   url: /open-source
-  icon:
+  icon: fa-github
 - page: 招聘
   url: /recruit
-  icon:
+  icon: fa-handshake-o
 - page: 书单
   url: /books
-  icon:
+  icon: fa-book
 - page: 关于
   url: /about
-  icon:
+  icon: fa-user-circle-o
 
 ## favicon
 favicon: /favicon.ico

@@ -45,7 +45,7 @@ author:
     position: 小米科技 · 服务端研发工程师
     slogan: 声明：本站所引用资源若存在侵权，请<a href="mailto://zhenchao.wang@hotmail">邮件</a>告知！
 
-## 通知栏公告设置
+## 通知栏
 notice:
 
 ## 社交设置
@@ -93,10 +93,28 @@ tagcloud_config:
 links:
   - 武汉大学NLP研究中心: http://nlp.whu.edu.cn
 
+
 # 主题自定义个性化配置
+
+## 添加版权保护
+archiveCopyright:
+  enable: true
+  tip: '版权所有，转载请注明出处'
 
 ## 网站宣传语
 branding:
+
+## 当无目录时的显示文字，默认为'无'
+noCategoryText: '无'
+
+## 过低版本的浏览器提醒文字
+outdated_browser_text: '你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。'
+
+## 文章过期提醒功能
+warning:
+  days: 512
+  text: '本文于%d天之前发表，文中内容可能已经过时。'
+
 
 ## 首页文章简介的图片占位符
 placeholder: ./img/loading.gif
@@ -108,24 +126,9 @@ defaultImgs:
 ## 截取文章首页描述字数
 excerptLength: 120
 
-## 当无目录时的显示文字，默认为'无'
-noCategoryText: '无'
+## 代码高亮配置
+highlightTheme: github
 
-## 代码高亮配置：[default,github,foundation,googlecode,monokai-sublime,monokai,xcode,vs2015,tomorrow,hybrid]
-highlightTheme: monokai-sublime
-
-## ICON配置
-fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
-
-## 文章过期提醒功能
-warning:
-  days: 1024
-  text: '本文于%d天之前发表，文中内容可能已经过时。'
-
-## 添加版权保护
-archiveCopyright:
-  enable: true
-  tip: '版权所有，商业转载请联系作者，非商业转载请注明出处'
 
 ## 版权声明文字，支持html/text，但不要使用<li>标签
 cc: |-
@@ -133,8 +136,6 @@ cc: |-
       本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议
       </a>
 
-## 过低版本的浏览器提醒文字
-outdated_browser_text: '你使用的浏览器版本过低，为了你更好的阅读体验，请更新浏览器的版本或者使用其他现代浏览器，比如Chrome、Firefox、Safari等。'
 
 ## 主题评论
 ### gitment
@@ -146,12 +147,14 @@ gitment:
   client_secret:
   perPage: 10
 
+
 ### 友言评论
 uyan:
   enable: true
   uyan_id: 2081622
 
-### 畅言评论
+
+# changyan
 changyan:
   enable: false
   appid: cysVsEtac
@@ -176,7 +179,10 @@ google_anaylytics:
 ### 百度文章推送
 baidu_push:
 
-# 网站主题配置
+## ICON配置
+fontAwesome: //cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css
+
+#网站主题配置
 since: 2017
-robot: 'all'  ### 控制搜索引擎的抓取和索引编制行为，默认为all
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
 version: 1.1.0

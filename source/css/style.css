@@ -176,6 +176,7 @@ textarea:focus {
 }
 blockquote {
   border-left: 4px solid #e67e22;
+  padding: 10px 0px;
   background-color: #f9f9f9;
   font-size: 14px;
 }
@@ -859,6 +860,7 @@ pre {
 }
 #about blockquote {
   border-left: 4px solid #EEE;
+  padding: 10px 20px;
   background: transparent;
   font-size: 18px;
 }
@@ -1060,12 +1062,10 @@ pre {
 .highlight .gutter {
   display: none;
 }
-.highlight .code {
+/*.highlight .code {
   padding-top: 10px;
   padding-bottom: 10px;
-  background: #F8F8F8;
-  border-radius: 6px;
-}
+}*/
 .highlight .code pre {
   margin-bottom: 0;
 }

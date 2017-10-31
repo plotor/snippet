@@ -954,6 +954,15 @@ pre {
     margin-left:  10px;
     float: left;
 }
+.widget .author .info  h3 {
+    margin-top:  10px;
+}
+.widget .author .info p {
+    margin-bottom: 6px;
+}
+.widget .author .info p .fa {
+  width: 64px;
+}
 .widget .author .avatar img {
   max-width: 100%;
   border: 6px solid #DDD;
@@ -1083,6 +1092,9 @@ pre {
   .widget .author .info {
     margin: auto;
     float: none;
+  }
+  .widget .author .info p .fa {
+    width: 48px;
   }
   .carousel img {
     margin-top:  -38px;

@@ -7,7 +7,7 @@ menu:
   url: /
   icon: fa-home
 - page: 开源
-  url: /open-source
+  url: /open
   icon: fa-github
 - page: 招聘
   url: /recruit

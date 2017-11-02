@@ -1077,6 +1077,8 @@ pre {
 }*/
 .highlight .code pre {
   margin-bottom: 0;
+  padding: 10px 0px;
+  background: #242520;
 }
 /*====================================================
     media

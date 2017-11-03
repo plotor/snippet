@@ -176,9 +176,12 @@ textarea:focus {
 }
 blockquote {
   border-left: 4px solid #e67e22;
-  padding: 10px 0px;
+  padding: 10px;
   background-color: #f9f9f9;
   font-size: 14px;
+}
+blockquote ol, ul {
+  padding-left: 20px;
 }
 pre {
   padding: 0;

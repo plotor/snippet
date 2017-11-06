@@ -51,18 +51,18 @@ notice:
 ## 社交设置
 social:
  - name: Github
-   icon: git
+   icon: github
    href: //github.com/procyon-lotor
  - name: Email
    icon: envelope-o
    href: mailto:zhenchao.wang@hotmail.com
- - name: 联系QQ
+ - name: Tencent QQ
    icon: qq
    href: /
- - name: 微博
+ - name: Sina Microblog
    icon: weibo
    href: /
- - name: QQ群
+ - name: QQ Group
    icon: users
    href: /
  - name: RSS

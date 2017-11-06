@@ -479,6 +479,7 @@ pre {
 }
 .post .post-content p.brief {
   color: #666666;
+  min-height: 80px;
 }
 .post .post-body {
   margin-top: 15px;
@@ -1149,6 +1150,7 @@ pre {
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
+	min-height: 10px;
   }
   .post .post-media {
     float: none;

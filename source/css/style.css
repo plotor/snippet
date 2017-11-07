@@ -491,6 +491,7 @@ pre {
 .post .post-body p {
   font-size: 1.1em;
   line-height: 1.75;
+  text-align:  justify;
 }
 .post .post-body p img {
   max-width: 100%;

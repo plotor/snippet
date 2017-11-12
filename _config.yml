@@ -157,10 +157,10 @@ changyan:
   appid: cysVsEtac
   appkey: 966bea4f406651be0a6c237e63a2cd51
 
-# jiathis
-jiathis:
+# AddThis
+addthis:
   enable: true
-  uid: 2081622
+  pubid: ra-5a08317dc70419ca
 
 ## 网站访问统计
 

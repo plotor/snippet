@@ -17,4 +17,4 @@
 
 配置使用方式参考[原主题说明](https://github.com/shenliyang/hexo-theme-snippet)，在此对原作者的工作表示致谢~
 
-最近一次同步上游 master 分支日期：2017-10-29
+最近一次同步上游 master 分支日期：2017-11-17

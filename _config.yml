@@ -34,6 +34,7 @@ date_format: YYYY-MM-DD HH:mm:ss
 widgets:
 - author
 - social
+- search
 - category
 - archive
 - tagcloud
@@ -44,6 +45,17 @@ author:
     name: 王振超，「花名：予尊」
     position: 小米科技 · 服务端研发工程师
     slogan: 声明：本站所引用资源若存在侵权，请<a href="mailto://zhenchao.wang@hotmail">邮件</a>告知！
+
+## 搜索
+jsonContent:
+  searchLocal: true
+  searchGoogle: true
+  posts:
+    title: true
+    text: true
+    content: true
+    categories: false
+    tags: false
 
 ## 通知栏公告设置
 notice:
@@ -98,7 +110,7 @@ links:
 ## 网站宣传语
 branding:
 
-## 首页文章简介的图片占位符
+## 懒加载图片占位符
 placeholder: ./img/loading.gif
 
 ## 缩略图自定义随机图片
@@ -108,7 +120,7 @@ defaultImgs:
 ## 截取文章首页描述字数
 excerptLength: 120
 
-## 当无目录时的显示文字，默认为'无'
+## 当无分类时显示文字，默认为'无'
 noCategoryText: '无'
 
 ## 代码高亮配置：[default,github,foundation,googlecode,monokai-sublime,monokai,xcode,vs2015,tomorrow,hybrid]
@@ -122,10 +134,12 @@ warning:
   days: 1024
   text: '本文于%d天之前发表，文中内容可能已经过时。'
 
-## 添加版权保护
-archiveCopyright:
+## 文章内声明
+declaration:
   enable: true
-  tip: '版权所有，商业转载请联系作者，非商业转载请注明出处'
+  title: '转载声明'
+  tip: |-
+      版权所有，商业转载请联系作者，非商业转载请注明出处
 
 ## 版权声明文字，支持html/text，但不要使用<li>标签
 cc: |-
@@ -178,5 +192,5 @@ baidu_push:
 
 # 网站主题配置
 since: 2017
-robot: 'all'  ### 控制搜索引擎的抓取和索引编制行为，默认为all
-version: 1.1.0
+robot: 'all' ### 控制搜索引擎的抓取和索引编制行为，默认为all
+version: 1.2.0

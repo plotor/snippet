@@ -1,1 +1,8 @@
-<%- partial('_partial/article', {post: page, index: false}) %>
+<!-- partial('_partial/article', {post: page, index: false}) -->
+<%if(page.type && page.type=='about'){%>
+    <div id="main">
+        <div id="about">
+            <%- page.content%>
+        </div>
+    </div>
+<%}%>

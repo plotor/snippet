@@ -493,7 +493,8 @@ pre {
 }
 .post .post-body p {
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1.75;
+  color: #666;
   text-align:  justify;
 }
 .post .post-body p img {
@@ -505,10 +506,7 @@ pre {
   width: 100%;
 }
 .post .post-body table thead tr {
-  border-bottom: 3px solid #E67E22;
-}
-.post .post-body table tbody tr {
-  border-bottom: 1px solid #E67E22;
+  border-bottom: 3px solid #999;
 }
 .post .post-body .highlight table {
   margin-top: 0px;
@@ -630,9 +628,8 @@ pre {
   position: relative;
   clear: both;
   outline: 0;
-  margin: 10px 0 30px;
+  margin: 10px 0 10px;
   padding: 0;
-  min-height: 100px;
 }
 .post-content figure img {
   display: block;
@@ -663,7 +660,7 @@ pre {
   border-top: #dededc 1px solid;
 }
 .post-content blockquote {
-  margin: 0 0 1.64em 0;
+  margin: 0 0 1em 0;
   border-left: 3px solid #e67e22;
   padding-left: 12px;
   color: #666666;
@@ -672,7 +669,7 @@ pre {
   color: #666666;
 }
 .post-content ul {
-  margin: 0 0 24px 6px;
+  margin: 0 0 6px 6px;
   padding-left: 16px;
   list-style-type: square;
 }
@@ -707,11 +704,10 @@ pre {
   padding: 0;
 }
 .post-content code {
-  color: #808080;
   font-size: 0.96em;
   background-color: #f9f9f9;
   padding: 1px 2px;
-  border: 1px solid #dadada;
+  border: 0px;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;

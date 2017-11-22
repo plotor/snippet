@@ -1042,19 +1042,20 @@ pre {
 /* back-to-top */
 #back-to-top {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
-  background: rgba(230, 126, 34, 0.6);
+  right: 30px;
+  bottom: 30px;
+  background-color: #959595;
   color: #fff;
   text-align: center;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
   z-index: 1;
-  display: none;
 }
 #back-to-top:hover {
   background: #e67e22;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 #back-to-top i {
   width: 30px;

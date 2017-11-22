@@ -271,11 +271,12 @@ pre {
 .main-header {
   position: relative;
   text-align: center;
-  background: #fff;
   line-height: 0;
   height: 180px;
   width: 100%;
   background: #464853 url(/img/banner.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
 .main-header .banneriframe {
   width: 100%;

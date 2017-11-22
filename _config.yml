@@ -49,7 +49,7 @@ author:
 ## 搜索
 jsonContent:
   searchLocal: true
-  searchGoogle: true
+  searchGoogle: false
   posts:
     title: true
     text: true
@@ -184,6 +184,9 @@ baidu_anaylytics:
 
 ### 谷歌统计
 google_anaylytics:
+
+### 腾讯分析
+tencent_analytics: 
 
 ### 百度文章推送
 baidu_push:

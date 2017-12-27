@@ -148,12 +148,12 @@ gitment:
 
 ### 友言评论
 uyan:
-  enable: true
+  enable: false
   uyan_id: 2081622
 
 ### 畅言评论
 changyan:
-  enable: false
+  enable: true
   appid: cysVsEtac
   appkey: 966bea4f406651be0a6c237e63a2cd51
 

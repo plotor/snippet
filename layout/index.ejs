@@ -1,10 +1,10 @@
 <div class="carousel">
     <!-- <%- image_tag('img/head-img.jpg') %> -->
-    <div class="notice"><%= __('notice') %></div>
     <%if(theme.notice){%>
+		<div class="notice"><%= __('notice') %></div>
 		<div class="letter"><%- theme.notice %></div>
 	<% } else { %>
-		<a href="http://www.zhenchao.org" target="_blank"><img src="/img/xhr.png"/></a>
+		<a href="http://www.zhenchao.org" target="_blank"><img src="/img/zhijian.png"/></a>
 	<%}%>
 </div>
 

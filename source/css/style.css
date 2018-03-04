@@ -230,7 +230,8 @@ pre {
 }
 .carousel {
   margin-bottom: 20px;
-  max-height: 178px;
+  /* max-height: 178px;*/
+  padding: 0 16px;  /* 临时添加 */
   background:  #FFF;
   border-top: 3px solid #CD5555;
   text-align: center;
@@ -255,7 +256,7 @@ pre {
   /* opacity: .85;*/
 }
 .carousel img {
-  margin-top:  -72px;
+  margin-top:  -28px;
   width: 100%;
 }
 .carousel .letter {

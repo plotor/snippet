@@ -12,10 +12,10 @@ menu:
 - page: 招聘
   url: /recruit
   icon: fa-handshake-o
-- page: 书单
-  url: /books
-  icon: fa-book
-- page: 关于
+- page: 公众号
+  url: /vipcn
+  icon: fa-pagelines
+- page: 关于我
   url: /about
   icon: fa-user-circle-o
 

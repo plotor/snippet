@@ -515,6 +515,23 @@ pre {
 .post .post-body .highlight table tbody tr {
   border-bottom:0px;
 }
+
+#about table {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+#about table thead tr {
+  border-bottom: 3px solid #E67E22;
+}
+#about table tbody tr {
+  border-bottom: 1px solid #E67E22;
+}
+#about table tbody tr td {
+  min-width: 100px;
+  border-bottom: 1px solid #E67E22;
+}
+
 .post .post-footer {
   margin-top: 15px;
   padding-top: 15px;
